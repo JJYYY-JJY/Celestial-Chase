@@ -1,5 +1,7 @@
 # Celestial-Chase
 
+Contributor: Yuchen Zhang and Junye Ji
+
 Near-Earth Comets (NECs) and Meteorite Landings
 
 ## Project Proposal: Near-Earth Comets (NECs) and Meteorite Landings
@@ -32,17 +34,18 @@ The reason why I think this story is interesting is first of all that it is a sc
 
 We will use two datasets:
 
-1. **NEC Orbital Elements**:
+1. [NEC Orbital Elements](https://data.nasa.gov/Space-Science/Near-Earth-Comets-Orbital-Elements/b67r-rgxc):
    - Data Source: Fusion Table by Javier de la Torre
-   - Data Collection: Orbital elements of 170 Near-Earth Comets (NECs) in J2000 heliocentric ecliptic coordinates.
-   - Observations: 170 rows
-   - Features: Orbital elements, object number/name.
+   - Data Collection: J2000 heliocentric ecliptic orbital elements
+   for 170 NECs (Near-Earth Comets) sorted by object number/name.
+   - Observations: 160 rows, 17 columns.
+   - Features: Object, Epoch(TDB), TP(TDB), e, i (deg), w (deg), Node (deg), q (AU), Q (AU), P (yr), MOID (AU), A1 (AU/d^2), A2 (AU/d^2), A3 (AU/d^2), DT (d), ref, Object_name
 
-2. **Meteorite Landings Data**:
+2. [Meteorite Landings Data](https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh):
    - Data Source: Comprehensive dataset from The Meteoritical Society
-   - Data Collection: Information on 34,513 known meteorite landings, including place, type of meteorite, mass (grams), fell/found, year, coordinates, and more.
-   - Observations: 34,513 rows
-   - Features: place, type_of_meteorite, mass_g, fell_found, year, coordinates, and more.
+   - Data Collection: Information on all of the known meteorite landings.
+   - Observations: 45.7k rows, 10 columns.
+   - Features: name, id, nametype, recclass, mass(g), fall, year, reclat, reclong, GeoLocation.
 
 ### Background Research/Inspiration
 
