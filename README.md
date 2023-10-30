@@ -2,6 +2,8 @@
 
 Contributor: Yuchen Zhang and Junye Ji
 
+Github Link: <https://github.com/2727995853/Celestial-Chase>
+
 Near-Earth Comets (NECs) and Meteorite Landings
 
 ## Project Proposal: Near-Earth Comets (NECs) and Meteorite Landings
